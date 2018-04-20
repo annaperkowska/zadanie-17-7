@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		title="logowanie Google"
+	body
+		div
+			h1 Sign in
+			form(action='http://localhost:3000/logged', method='GET')
+				p First name: 
+					input(type='text', name='first_name')
+				p Last name: 
+					input(type='text', name='last_name')
+				button(type='submit') Log in
