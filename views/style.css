@@ -79,6 +79,8 @@ body {
   transform: rotate(40deg);
 }
 button {
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
   outline: none;
   background: #000;
   color: #FFF;
@@ -91,3 +93,11 @@ button {
   border-radius: 50px;
   transform: rotate(-160deg);
 }
+button:active {
+  background: #2b2c2d;
+}
+a {
+  color: #FFF;
+}
+a:active {
+  color: violet;
